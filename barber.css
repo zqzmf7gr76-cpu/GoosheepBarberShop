@@ -497,6 +497,15 @@ left: -100%;
  background: linear-gradient(90deg, transparent, #ccf403);
 animation: btn-anim1 2s linear infinite;
 }
+.map-item img{
+margin: 5% auto;
+display: block; 
+width: 100%; 
+max-width: 350px; 
+height: auto; 
+max-height: 250px; 
+ border-radius: 5px;
+}
 @media screen and (max-width: 900px) {
 
 .hamburger {
@@ -593,11 +602,11 @@ height: 280px;
 
 
 #location img,
-.map-item img { /* Εφαρμόζεται και στην map-item img για συνέπεια */
- width: 80%;
- height: auto;
- max-height: 200px; /* Μικρότερο μέγιστο ύψος */
- margin: 10px auto; /* Μικρότερο margin */
+ .map-item img {
+ width: 80%; 
+    height: auto;
+    max-height: 200px; 
+    margin: 10px auto;
 }
 
 }
